@@ -1,0 +1,56 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.kotak {
+  display: flex;
+  flex-direction: column; /* horizontally */
+  justify-content: center; /* vertically */
+  align-items: center;
+  height: 100vh;
+}
+
+label,
+input {
+  display: block;
+}
+
+.form-input {
+  padding: 10px;
+  border: none;
+  background: #f2f2f2;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+#btn-kirim {
+  padding: 10px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#btn-kirim:hover {
+  background-color: orange;
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px;
+}
+
+td,
+th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
